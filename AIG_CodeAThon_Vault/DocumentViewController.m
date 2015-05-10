@@ -26,7 +26,9 @@ NSMutableArray *telNumberArray;
     self.navigationItem.titleView.tintColor=[UIColor blueColor];
     self.navigationItem.title=@"My Documents";
 
-[self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"blue_hader_menuicon.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(showImageCapture)] animated:YES];
+    [self setNotification];
+
+[self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"blue_hader_menuicon.png"] style:UIBarButtonItemStylePlain target:self action:@selector(showImageCapture)] animated:YES];
 
 
 //    UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithCustomView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"blue_hader_menuicon.png"]]];
@@ -204,6 +206,20 @@ else if(subview.tag ==11)
 
     [self performSegueWithIdentifier:@"ImageCaptureViewControllerSegue" sender:self];
 
+}
+
+-(void)setNotification{
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(didfireAddDocument:)
+                                                 name:@"openDocumentsAddedAutoViewNotification"  object:nil];
+
+    
+}
+-(void)didfireAddDocument:(NSNotification *)note{
+
+        [self performSegueWithIdentifier:@"documentsAddedViewControllerSegue" sender:nil];
+    
 }
 
 @end

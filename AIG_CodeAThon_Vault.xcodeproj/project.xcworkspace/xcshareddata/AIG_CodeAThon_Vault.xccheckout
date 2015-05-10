@@ -10,14 +10,14 @@
 	<string>AIG_CodeAThon_Vault</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>424BB2B4016F92147166309908826859DF239A9D</key>
+		<key>D8BF26FC7CCC00BB3363D7A2C91AFC0BE2F109E6</key>
 		<string>https://github.com/attrecto/AIG_CodeAThon_Vault.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AIG_CodeAThon_Vault.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>424BB2B4016F92147166309908826859DF239A9D</key>
+		<key>D8BF26FC7CCC00BB3363D7A2C91AFC0BE2F109E6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>424BB2B4016F92147166309908826859DF239A9D</string>
+	<string>D8BF26FC7CCC00BB3363D7A2C91AFC0BE2F109E6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>424BB2B4016F92147166309908826859DF239A9D</string>
+			<string>D8BF26FC7CCC00BB3363D7A2C91AFC0BE2F109E6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AIG_CodeAThon_Vault</string>
 		</dict>

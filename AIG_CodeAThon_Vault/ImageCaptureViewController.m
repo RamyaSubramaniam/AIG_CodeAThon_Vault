@@ -18,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.navigationController setNavigationBarHidden:YES];
+
+
+    UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"" message:@"Lay the document on a dark flat surface in a well lit area.\nPosition the document in the brackets and capture the image  " delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    alertview.tag=100;
+
+    [alertview show];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,11 +44,37 @@
 
 -(IBAction)openCamera
 {
+
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"openDocumentsAddedAutoViewNotification" object:self userInfo:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+
+//    [self.navigationController performSegueWithIdentifier:@"documentsAddedViewControllerSegue" sender:self];
+
+
+
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
+{
+
+    if( alertView.tag==100){
+
+        [self showCamera];
+    }
+}
+
+
+-(void)showCamera{
+
+
     @try
     {
         UIImagePickerController *picker = [[UIImagePickerController alloc] init];
         picker.sourceType = UIImagePickerControllerSourceTypeCamera;
         picker.delegate = self;
+
+
 
         [self presentModalViewController:picker animated:YES];
     }

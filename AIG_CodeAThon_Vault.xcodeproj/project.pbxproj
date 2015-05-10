@@ -17,14 +17,11 @@
 		84BE4CB81AFF27FE005E9A33 /* DocumentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4CB51AFF27FE005E9A33 /* DocumentsTableViewCell.m */; };
 		84BE4CBB1AFF2858005E9A33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BE4CBA1AFF2858005E9A33 /* Images.xcassets */; };
 		84BE4CBD1AFF2B1D005E9A33 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE4CBC1AFF2B1D005E9A33 /* Login.storyboard */; };
-		84BE4E4E1AFF2E24005E9A33 /* AppStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E491AFF2E24005E9A33 /* AppStateManager.m */; };
-		84BE4E4F1AFF2E24005E9A33 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E4B1AFF2E24005E9A33 /* MBProgressHUD.m */; };
-		84BE4E501AFF2E24005E9A33 /* ViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E4D1AFF2E24005E9A33 /* ViewControllerFactory.m */; };
-		84BE4E531AFF2E6D005E9A33 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E521AFF2E6D005E9A33 /* UserManager.m */; };
-		84BE4E561AFF3209005E9A33 /* CompanionAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E551AFF3209005E9A33 /* CompanionAppManager.m */; };
 		84BE4E5D1AFF40D8005E9A33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BE4E5A1AFF40D6005E9A33 /* Default-568h@2x.png */; };
 		84BE4E5E1AFF40D9005E9A33 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BE4E5B1AFF40D8005E9A33 /* Default.png */; };
 		84BE4E5F1AFF40D9005E9A33 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BE4E5C1AFF40D8005E9A33 /* Default@2x.png */; };
+		84BE4E621AFF6946005E9A33 /* DocumentAddedAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E611AFF6946005E9A33 /* DocumentAddedAutoViewController.m */; };
+		84BE4E651AFF6960005E9A33 /* DocumentsAddedManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4E641AFF6960005E9A33 /* DocumentsAddedManualViewController.m */; };
 		C79A026D1AFD1D990022009E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79A026C1AFD1D990022009E /* main.m */; };
 		C79A02701AFD1D990022009E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79A026F1AFD1D990022009E /* AppDelegate.m */; };
 		C79A02731AFD1D990022009E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79A02721AFD1D990022009E /* SplashViewController.m */; };
@@ -82,19 +79,13 @@
 		84BE4CB51AFF27FE005E9A33 /* DocumentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentsTableViewCell.m; sourceTree = "<group>"; };
 		84BE4CBA1AFF2858005E9A33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84BE4CBC1AFF2B1D005E9A33 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		84BE4E481AFF2E24005E9A33 /* AppStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStateManager.h; sourceTree = "<group>"; };
-		84BE4E491AFF2E24005E9A33 /* AppStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStateManager.m; sourceTree = "<group>"; };
-		84BE4E4A1AFF2E24005E9A33 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		84BE4E4B1AFF2E24005E9A33 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		84BE4E4C1AFF2E24005E9A33 /* ViewControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFactory.h; sourceTree = "<group>"; };
-		84BE4E4D1AFF2E24005E9A33 /* ViewControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFactory.m; sourceTree = "<group>"; };
-		84BE4E511AFF2E6D005E9A33 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
-		84BE4E521AFF2E6D005E9A33 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
-		84BE4E541AFF3209005E9A33 /* CompanionAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanionAppManager.h; sourceTree = "<group>"; };
-		84BE4E551AFF3209005E9A33 /* CompanionAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanionAppManager.m; sourceTree = "<group>"; };
 		84BE4E5A1AFF40D6005E9A33 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84BE4E5B1AFF40D8005E9A33 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		84BE4E5C1AFF40D8005E9A33 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84BE4E601AFF6945005E9A33 /* DocumentAddedAutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentAddedAutoViewController.h; sourceTree = "<group>"; };
+		84BE4E611AFF6946005E9A33 /* DocumentAddedAutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentAddedAutoViewController.m; sourceTree = "<group>"; };
+		84BE4E631AFF6960005E9A33 /* DocumentsAddedManualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentsAddedManualViewController.h; sourceTree = "<group>"; };
+		84BE4E641AFF6960005E9A33 /* DocumentsAddedManualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentsAddedManualViewController.m; sourceTree = "<group>"; };
 		C79A02671AFD1D990022009E /* AIG_CodeAThon_Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIG_CodeAThon_Vault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79A026B1AFD1D990022009E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79A026C1AFD1D990022009E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -203,6 +194,10 @@
 				84BE4CB31AFF27FE005E9A33 /* ImageCaptureViewController.m */,
 				84BE4CB41AFF27FE005E9A33 /* DocumentsTableViewCell.h */,
 				84BE4CB51AFF27FE005E9A33 /* DocumentsTableViewCell.m */,
+				84BE4E601AFF6945005E9A33 /* DocumentAddedAutoViewController.h */,
+				84BE4E611AFF6946005E9A33 /* DocumentAddedAutoViewController.m */,
+				84BE4E631AFF6960005E9A33 /* DocumentsAddedManualViewController.h */,
+				84BE4E641AFF6960005E9A33 /* DocumentsAddedManualViewController.m */,
 			);
 			name = DocumentsScreen;
 			sourceTree = "<group>";
@@ -270,16 +265,6 @@
 		C79A02901AFD1F290022009E /* BL */ = {
 			isa = PBXGroup;
 			children = (
-				84BE4E541AFF3209005E9A33 /* CompanionAppManager.h */,
-				84BE4E551AFF3209005E9A33 /* CompanionAppManager.m */,
-				84BE4E511AFF2E6D005E9A33 /* UserManager.h */,
-				84BE4E521AFF2E6D005E9A33 /* UserManager.m */,
-				84BE4E481AFF2E24005E9A33 /* AppStateManager.h */,
-				84BE4E491AFF2E24005E9A33 /* AppStateManager.m */,
-				84BE4E4A1AFF2E24005E9A33 /* MBProgressHUD.h */,
-				84BE4E4B1AFF2E24005E9A33 /* MBProgressHUD.m */,
-				84BE4E4C1AFF2E24005E9A33 /* ViewControllerFactory.h */,
-				84BE4E4D1AFF2E24005E9A33 /* ViewControllerFactory.m */,
 				C79A02911AFD1F380022009E /* KeyChainManager.h */,
 				C79A02921AFD1F380022009E /* KeyChainManager.m */,
 				C7B7B09A1AFD2D690063FBF3 /* ParseManager.h */,
@@ -483,22 +468,19 @@
 			files = (
 				84BE4CB71AFF27FE005E9A33 /* ImageCaptureViewController.m in Sources */,
 				84BE4CAA1AFF2784005E9A33 /* RootViewController.m in Sources */,
-				84BE4E531AFF2E6D005E9A33 /* UserManager.m in Sources */,
 				C79A02731AFD1D990022009E /* SplashViewController.m in Sources */,
 				C79A02A31AFD258F0022009E /* LoginWarningViewController.m in Sources */,
 				84BE4CB61AFF27FE005E9A33 /* DocumentViewController.m in Sources */,
+				84BE4E651AFF6960005E9A33 /* DocumentsAddedManualViewController.m in Sources */,
 				C79A029F1AFD23550022009E /* BaseViewController.m in Sources */,
+				84BE4E621AFF6946005E9A33 /* DocumentAddedAutoViewController.m in Sources */,
 				C79A02701AFD1D990022009E /* AppDelegate.m in Sources */,
 				C79A026D1AFD1D990022009E /* main.m in Sources */,
 				84BE4CB81AFF27FE005E9A33 /* DocumentsTableViewCell.m in Sources */,
 				C79A02931AFD1F380022009E /* KeyChainManager.m in Sources */,
-				84BE4E501AFF2E24005E9A33 /* ViewControllerFactory.m in Sources */,
 				84BE4CAC1AFF2784005E9A33 /* DashboardTableViewCell.m in Sources */,
-				84BE4E4E1AFF2E24005E9A33 /* AppStateManager.m in Sources */,
-				84BE4E4F1AFF2E24005E9A33 /* MBProgressHUD.m in Sources */,
 				C79A02971AFD1F490022009E /* Keychain.m in Sources */,
 				84BE4CAE1AFF2784005E9A33 /* KeepItSafeTableViewCell.m in Sources */,
-				84BE4E561AFF3209005E9A33 /* CompanionAppManager.m in Sources */,
 				84BE4CAD1AFF2784005E9A33 /* iCarousel.m in Sources */,
 				C7B7B09C1AFD2D690063FBF3 /* ParseManager.m in Sources */,
 				84BE4CAB1AFF2784005E9A33 /* DashboardCollectionViewCell.m in Sources */,
