@@ -33,8 +33,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="435" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jJY-ts-eSD">
-                                <rect key="frame" x="0.0" y="64" width="600" height="435"/>
+                            <tableView clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="435" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="jJY-ts-eSD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="435"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -54,7 +54,7 @@
                                                         <size key="itemSize" width="145" height="130"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="sectionInset" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
                                                         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DashboardCollectionViewCell" id="u1A-mG-Cy2" customClass="DashboardCollectionViewCell">
@@ -150,11 +150,11 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="xHH-Li-Nfn" firstAttribute="leading" secondItem="9e9-za-2x7" secondAttribute="leadingMargin" constant="-16" id="4id-zm-6Np"/>
-                            <constraint firstItem="xHH-Li-Nfn" firstAttribute="top" secondItem="jJY-ts-eSD" secondAttribute="bottom" constant="1" id="CON-JN-2bj"/>
+                            <constraint firstItem="xHH-Li-Nfn" firstAttribute="top" secondItem="jJY-ts-eSD" secondAttribute="bottom" constant="65" id="CON-JN-2bj"/>
                             <constraint firstItem="jJY-ts-eSD" firstAttribute="leading" secondItem="9e9-za-2x7" secondAttribute="leadingMargin" constant="-16" id="P7j-5j-Med"/>
                             <constraint firstItem="NaR-h1-bEL" firstAttribute="top" secondItem="xHH-Li-Nfn" secondAttribute="bottom" id="emX-Up-nVZ"/>
-                            <constraint firstItem="jJY-ts-eSD" firstAttribute="top" secondItem="9e9-za-2x7" secondAttribute="topMargin" constant="64" id="hsq-rY-zM3"/>
-                            <constraint firstItem="NaR-h1-bEL" firstAttribute="top" secondItem="jJY-ts-eSD" secondAttribute="bottom" constant="101" id="hzc-Lu-Op7"/>
+                            <constraint firstItem="jJY-ts-eSD" firstAttribute="top" secondItem="9e9-za-2x7" secondAttribute="topMargin" id="hsq-rY-zM3"/>
+                            <constraint firstItem="NaR-h1-bEL" firstAttribute="top" secondItem="jJY-ts-eSD" secondAttribute="bottom" constant="165" id="hzc-Lu-Op7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xHH-Li-Nfn" secondAttribute="trailing" constant="-16" id="p1R-mG-Vf1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jJY-ts-eSD" secondAttribute="trailing" constant="-16" id="pkb-RI-mgQ"/>
                         </constraints>

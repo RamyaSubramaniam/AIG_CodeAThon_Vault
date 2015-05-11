@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "KeyChainManager.h"
 #import  <Parse/Parse.h>
-#import "ViewControllerFactory.h"
 #import "RootViewController.h"
 
 @interface AppDelegate ()
@@ -58,10 +57,10 @@
         }
 
         if(!found){
-            RootViewController *vc = [[[[ViewControllerFactory sharedFactory] mainStreamNavigationController] childViewControllers] firstObject];
+//            RootViewController *vc = [[[[ViewControllerFactory sharedFactory] mainStreamNavigationController] childViewControllers] firstObject];
+//
+//            [nc pushViewController:vc animated:NO];
 
-            [nc pushViewController:vc animated:NO];
-            
         }
         else
         {

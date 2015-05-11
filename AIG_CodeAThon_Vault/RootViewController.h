@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 
-@interface RootViewController : UIViewController<UITableViewDataSource>
+@interface RootViewController : UIViewController<UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate>
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionview;
+@property (nonatomic, strong) NSArray *items;
+
 
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 
